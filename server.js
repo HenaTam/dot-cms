@@ -7,7 +7,7 @@ const db_url="mongodb+srv://heni:heni123@cluster0.dulw2ge.mongodb.net/?retryWrit
 async function connectToMongo(){
   try {
      await mongoose.connect(db_url)
-     console.log("databased connected successfully :)" );
+     console.log("databased connected :)" );
   } catch (error) {
     console.log("not connected!! :(")  
   }
